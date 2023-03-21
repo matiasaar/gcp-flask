@@ -18,7 +18,7 @@ def echo(name):
 def echo_sum(name):
     print(f"This was placed in the url: new-{name}")
     val = {"new-name": 5+name}
-    return jsonify(val)
+    return val
 
 
 
